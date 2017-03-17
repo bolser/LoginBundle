@@ -13,10 +13,13 @@
 
 namespace Bolser\LoginBundle\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**
  * Class AbstractUser
+ *
+ * @ORM/@MappedSuperclass
  *
  * @package Bolser\LoginBundle\Entity
  */

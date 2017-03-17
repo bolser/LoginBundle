@@ -1,27 +1,34 @@
 {
-    "name": "bolser/login-bundle",
-    "description": "A Symfony 3.x Login Bundle to aid logging into Symfony backend sites",
-    "type": "symfony-bundle",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Matt Booth",
-            "email": "mattbooth@bolser.co.uk"
-        }
-    ],
-    "keywords": [
-        "login",
-        "bundle",
-        "login bundle",
-        "oauth",
-        "google"
-    ],
-    "minimum-stability": "stable",
-    "require": {},
-    "autoload" : {
-        "psr-0" : {
-            "Bolser\\LoginBundle" : ""
-        }
-    },
-    "target-dir" : "Bolser/LoginBundle"
+  "name": "bolser/login-bundle",
+  "description": "A Symfony 3.x Login Bundle to aid logging into Symfony backend sites",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Booth",
+      "email": "mattbooth@bolser.co.uk"
+    }
+  ],
+  "keywords": [
+    "login",
+    "bundle",
+    "login bundle",
+    "oauth",
+    "google"
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/symfony": "3.2.*"
+  },
+  "require-dev": {},
+  "suggest": {
+    "lexik/jwt-authentication-bundle": "Allows a better system of authenticating by passing a JSON Web Token around",
+    "gesdinet/jwt-refresh-token-bundle": "Allows refreshing of the JWT rather than regenerating"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bolser\\LoginBundle": ""
+    }
+  },
+  "target-dir": "Bolser/LoginBundle"
 }
