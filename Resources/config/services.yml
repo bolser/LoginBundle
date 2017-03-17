@@ -1,0 +1,4 @@
+services:
+#    bolser_login.example:
+#        class: Bolser\LoginBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
