@@ -8,9 +8,13 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
+ * Class BolserLoginExtension
+ *
  * This is the class that loads and manages your bundle configuration.
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
+ *
+ * @package Bolser\LoginBundle\DependencyInjection
  */
 class BolserLoginExtension extends Extension
 {

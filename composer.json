@@ -1,0 +1,27 @@
+{
+    "name": "bolser/login-bundle",
+    "description": "A Symfony 3.x Login Bundle to aid logging into Symfony backend sites",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Booth",
+            "email": "mattbooth@bolser.co.uk"
+        }
+    ],
+    "keywords": [
+        "login",
+        "bundle",
+        "login bundle",
+        "oauth",
+        "google"
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" : {
+        "psr-0" : {
+            "Bolser\\LoginBundle" : ""
+        }
+    },
+    "target-dir" : "Bolser/LoginBundle"
+}

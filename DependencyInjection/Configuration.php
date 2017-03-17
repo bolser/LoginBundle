@@ -6,9 +6,13 @@ use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
+ * Class Configuration
+ *
  * This is the class that validates and merges configuration from your app/config files.
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/configuration.html}
+ *
+ * @package Bolser\LoginBundle\DependencyInjection
  */
 class Configuration implements ConfigurationInterface
 {
