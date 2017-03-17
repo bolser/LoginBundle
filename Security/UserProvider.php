@@ -1,7 +1,7 @@
 <?php
 
 /**
- * BolserLoginBundle
+ * UserProvider
  *
  * This source file is subject to The MIT Licence
  * For the full copyright and license information, please view the LICENSE.md
@@ -11,15 +11,16 @@
  * @license    The MIT Licence
  */
 
-namespace Bolser\LoginBundle;
+namespace Bolser\LoginBundle\Security;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Bridge\Doctrine\Security\User\EntityUserProvider;
 
 /**
- * Class BolserLoginBundle
+ * Class UserProvider
  *
- * @package Bolser\LoginBundle
+ * @package Bolser\LoginBundle\Security
  */
-class BolserLoginBundle extends Bundle
+class UserProvider extends EntityUserProvider
 {
+
 }
