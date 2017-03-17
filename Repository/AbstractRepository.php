@@ -1,7 +1,7 @@
 <?php
 
 /**
- * FailedLoginAttemptsRepository
+ * AbstractRepository
  *
  * This source file is subject to The MIT Licence
  * For the full copyright and license information, please view the LICENSE.md
@@ -13,12 +13,9 @@
 
 namespace Bolser\LoginBundle\Repository;
 
-/**
- * Class AbstractUserRepository
- *
- * @package Bolser\LoginBundle\Repository
- */
-abstract class AbstractUserRepository extends AbstractRepository
+use Doctrine\ORM\EntityRepository;
+
+class AbstractRepository extends EntityRepository
 {
 
 }

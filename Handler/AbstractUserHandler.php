@@ -1,7 +1,7 @@
 <?php
 
 /**
- * FailedLoginAttemptsRepository
+ * AbstractUserHandler
  *
  * This source file is subject to The MIT Licence
  * For the full copyright and license information, please view the LICENSE.md
@@ -11,14 +11,10 @@
  * @license    The MIT Licence
  */
 
-namespace Bolser\LoginBundle\Repository;
+namespace Bolser\LoginBundle\Handler;
 
-/**
- * Class AbstractUserRepository
- *
- * @package Bolser\LoginBundle\Repository
- */
-abstract class AbstractUserRepository extends AbstractRepository
+
+abstract class AbstractUserHandler
 {
 
 }

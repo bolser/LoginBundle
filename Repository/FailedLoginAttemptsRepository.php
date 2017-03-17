@@ -13,14 +13,12 @@
 
 namespace Bolser\LoginBundle\Repository;
 
-use Doctrine\ORM\EntityRepository;
-
 /**
  * Class FailedLoginAttemptsRepository
  *
  * @package Bolser\LoginBundle\Repository
  */
-class FailedLoginAttemptsRepository extends EntityRepository
+class FailedLoginAttemptsRepository extends AbstractRepository
 {
     /**
      * Gets the number of times a user has failed to login to the system
